@@ -1,11 +1,11 @@
  body {
-    margin: 10px;
+    margin: 0px;
   }
   
   #img {
     /*-webkit-transform: rotateZ(45deg) scale(0.5) translate(-800px);*/
-    width: 80%;
-    -webkit-animation: breathe 6s linear infinite;
+    width: 100%;
+    -webkit-animation: breathe 4s linear infinite;
   }
   
   @-webkit-keyframes breathe{
@@ -18,11 +18,11 @@
     position: absolute;
     z-index: -1;
     width: 100%;
-    top: 50px;
+    top: 0px;
     text-align: center;
   }
   
   #img2 img{
-    max-width: 100%;
+    max-width: 75%;
   }
   
